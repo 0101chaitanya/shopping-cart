@@ -1,0 +1,28 @@
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "TOGGLE_PAPER":
+      const cart_SET_PAPER = state.cart.map((item) => {
+        if (item.id === action.payload.id) {
+          return { ...item, paper: action.payload.paper };
+        }
+        return item;
+      });
+      return { ...state, cart: cart_SET_PAPER };
+
+    case "TOGGLE-CHECKOUT":
+      const books_ADD = state.books.map((item) => {
+        if (item.id === action.payload.id) {
+          console.log(action.payload.checkout, item.id, action.payload.id);
+          return { ...item, checkout: action.payload.checkout };
+        }
+        return item;
+      });
+      return { ...state, cart: [...books_ADD] };
+
+    case "COMPUTE-TOTAL":
+      return { ...state, total: state.cart.length };
+    default:
+      throw new Error(`no matching action found for ${action.type}`);
+  }
+};
+export default reducer;

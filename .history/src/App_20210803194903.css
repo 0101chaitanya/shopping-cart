@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+html,
+body,
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: fit-content;
+  color: whitesmoke;
+  background: linear-gradient(to left, #e66465, #9198e5);
+}
+nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > h1 {
+  justify-content: center;
+  text-align: center;
+  font-size: 1.8rem;
+  text-decoration: underline double;
+}
+nav > ul {
+  grid-area: ul;
+  display: flex;
+  align-content: flex-start;
+  width: 35rem;
+  justify-content: space-between;
+  list-style-type: none;
+}
+nav > ul > li:nth-child(1) {
+  display: flex;
+}
+nav > ul > li:nth-child(1) > * {
+  margin: 0 1rem;
+}
+a {
+  color: whitesmoke;
+}
+input {
+  font-size: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  padding: 0.4rem;
+  background: rgb(132, 168, 96);
+  border: double 0.5rem yellow;
+}
+.bookShow {
+  width: 100rem;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fit, 15rem);
+  grid-gap: 0.5rem;
+}
+img {
+  width: 12rem;
+  height: 14rem;
+}

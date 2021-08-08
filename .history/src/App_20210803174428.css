@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+html,
+body,
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  display: grid;
+  grid-template-areas:
+    "h3 h3 h3"
+    "ul . .";
+}
+nav > h3 {
+  grid-area: h3;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+nav > ul {
+  grid-area: ul;
+  display: flex;
+}
+
+nav > ul li {
+  margin: 1rem;
+}

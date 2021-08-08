@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+html,
+body,
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
+nav > h3 {
+  position: relative;
+  float: left;
+}

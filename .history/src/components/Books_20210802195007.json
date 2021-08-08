@@ -1,0 +1,64 @@
+[
+  {
+    "id": "book1",
+    "name": "Anna Karenina",
+    "image": "https://archive.org/services/img/ost-english-annakareninatols00tolsiala",
+    "Identifier": "ost-english-annakareninatols00tolsiala",
+    "checkout": false
+  },
+  {
+    "id": "book2",
+    "name": "Madame Bovary : a study of provincial life",
+    "image": "https://archive.org/services/img/madamebovarystud00flau",
+    "Identifier": "madamebovarystud00flau",
+    "checkout": false
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "checkout": false
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "checkout": false
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "checkout": false
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "checkout": false
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "checkout": false
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "checkout": false
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "checkout": false
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "checkout": false
+  }
+]

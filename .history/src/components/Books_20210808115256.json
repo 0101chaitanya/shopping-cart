@@ -1,0 +1,100 @@
+[
+  {
+    "id": "book1",
+    "name": "Anna Karenina",
+    "image": "https://archive.org/services/img/ost-english-annakareninatols00tolsiala",
+    "price": 399,
+    "identifier": "ost-english-annakareninatols00tolsiala",
+    "checkout": true,
+    "paper": false
+  },
+  {
+    "id": "book2",
+    "name": "Madame Bovary : a study of provincial life",
+    "image": "https://archive.org/services/img/madamebovarystud00flau",
+    "price": 499,
+    "identifier": "madamebovarystud00flau",
+    "checkout": true,
+    "paper": false
+  },
+  {
+    "id": "book3",
+    "name": "War and Peace",
+    "image": "https://archive.org/services/img/warandpeace01dolegoog",
+    "checkout": false,
+    "paper": false,
+
+    "price": 1299,
+    "identifier": "warandpeace01dolegoog"
+  },
+  {
+    "id": "book4",
+    "name": "The Great Gatsby",
+    "image": "https://archive.org/services/img/the-great-gatsby_1922",
+    "checkout": true,
+    "paper": true,
+
+    "price": 799,
+    "identifier": "the-great-gatsby_1922"
+  },
+  {
+    "id": "book5",
+    "name": "Middlemarch",
+    "image": "https://archive.org/services/img/middlemarchastu07eliogoog",
+    "checkout": false,
+    "paper": false,
+
+    "price": 150,
+    "identifier": "middlemarchastu07eliogoog"
+  },
+  {
+    "id": "book6",
+    "name": "The Adventures of Huckleberry Finn",
+    "image": "https://archive.org/services/img/adventureshuckle00twaiiala",
+    "checkout": false,
+    "paper": false,
+
+    "price": 249,
+    "identifier": "adventureshuckle00twaiiala"
+  },
+  {
+    "id": "book7",
+    "name": "The Stories of Anton Chekhov",
+    "image": "https://archive.org/services/img/in.ernet.dli.2015.507759",
+    "checkout": false,
+    "paper": false,
+
+    "price": 550,
+    "identifier": "in.ernet.dli.2015.507759"
+  },
+  {
+    "id": "book8",
+    "name": "In Search of Lost Time",
+    "image": "https://archive.org/services/img/InSearchOfLostTimeCompleteVolumes",
+
+    "checkout": false,
+    "paper": false,
+    "price": 1199,
+    "identifier": "InSearchOfLostTimeCompleteVolumes"
+  },
+  {
+    "id": "book9",
+    "name": "Hamlet",
+    "image": "https://archive.org/services/img/shakespeareshaml01shak",
+    "checkout": false,
+    "paper": false,
+
+    "price": 1500,
+    "identifier": "shakespeareshaml01shak"
+  },
+  {
+    "id": "book10",
+    "name": "Moby Dick",
+    "image": "https://archive.org/services/img/mobydickorwhale01melvuoft",
+    "checkout": false,
+    "paper": false,
+
+    "price": 699,
+    "identifier": "mobydickorwhale01melvuoft"
+  }
+]
